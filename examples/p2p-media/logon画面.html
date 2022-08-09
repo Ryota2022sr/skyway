@@ -1,0 +1,78 @@
+<html>
+ <head>
+  <meta http-equiv="Content-Type" content="text/html;charset=Shift_JIS">
+  <meta http-equiv="Content-Script-Type" content="text/javascript">
+  <title>Login画面</title>
+  <script type="text/javascript" src="js/checkIn.js">
+  </script>
+ </head>
+ 
+ <body bgcolor="#ffffff">
+<!-- SR logo begin -->
+<table border=0 cellpadding=0 cellspacing=0 width="100%">
+<tr valign="bottom" height="70">
+<!--td rowspan="2" width="100">
+</td-->
+<td><br></td>
+</tr>
+<tr height="16">
+<td valign="bottom" align="left" background="images/SR_line_bg.gif">
+</td>
+</tr>
+</table>
+<!-- SR logo end -->
+
+<table border=0 cellpadding=16 cellspacing=16>
+<!-- Side Page begin -->
+<tr valign="top">
+<td width="160"><br></td>
+<!-- Side Page end -->
+
+<td><!-- Main Page begin -->
+
+<!-- title begin -->
+<table border=0 width=100% cellpadding=0 cellspacing=0>
+<tr>
+<td align=center>
+	<h1>Login画面</h1>
+</td>
+</tr>
+<tr>
+<td align=right>
+</td>
+</tr>
+</table>
+<!-- title end -->
+<hr>
+<br>
+
+<form name="frm_login" method="post" action="login.php">
+<div class=main>
+<table border=0 cellpadding=0 cellspacing=1>
+<tr>
+<td align=right>
+	<font size="+1"><b>ID:</b></font>&nbsp;&nbsp;</td>
+<td>
+	<input type=text name="id" value="" required>
+</td>
+</tr>
+
+<tr>
+<td align=right>
+	<font size="+1"><b>PASSWORD:</b></font>&nbsp;&nbsp;</td>
+<td>
+	<input type=password name="pass" value="" required>
+</td>
+</tr>
+
+<tr>
+<td></td>
+<td valign=top>
+<br>
+<input type=submit onclick="location.href='index.html'" value="ログイン">
+</td>
+</tr>
+</table>
+<br>
+ </body>
+</html>
