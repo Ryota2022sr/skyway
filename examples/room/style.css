@@ -66,11 +66,11 @@ video {
 }
 
 .room .remote-streams {
-  background-color: #f6fbff;
+  background-color: #000;
 }
 
 .room .messages {
-  background-color: #eee;
+  background-color: #fff;
   min-height: 100px;
   padding: 8px;
   margin-top: 0;
