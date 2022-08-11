@@ -59,6 +59,7 @@ video {
   height: 50px;
   overflow:hidden;
   overflow-y:scroll;
+  white-space: nowrap;
 }
 
 /* room */
