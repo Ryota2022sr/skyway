@@ -57,9 +57,8 @@ video {
   padding: 8px;
   margin-top: 0;
   height: 50px;
-  overflow:hidden;
+  overflow-x: auto;
   overflow-y:scroll;
-  white-space: nowrap;
 }
 
 /* room */
@@ -79,6 +78,6 @@ video {
   min-height: 100px;
   padding: 8px;
   margin-top: 0;
-  overflow:hidden;
+  overflow-x: auto;
   overflow-y:scroll;
 }
