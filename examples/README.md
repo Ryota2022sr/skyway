@@ -1,2 +1,2 @@
-# P2P Media
-[Live example](https://example.webrtc.ecl.ntt.com/p2p-media/index.html)
+# SkyWay
+[Live example](https://ryota2022sr.github.io/skyway/examples/index.html)
