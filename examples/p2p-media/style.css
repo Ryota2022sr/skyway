@@ -33,12 +33,12 @@ video {
 /* p2p-media styles */
 .p2p-media {
   position: relative;
+  align-items: center;
   width: 80%;
 }
 
 .p2p-media .remote-stream {
   height: auto;
-  align-items: center;
 }
 
 .p2p-media .local-stream {
