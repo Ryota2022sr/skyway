@@ -46,7 +46,7 @@ video {
   display: flex;
   position: absolute;
   z-index: 2;
-	align-items: right;
+  align-self:flex-end;
   height: auto;
   width: 10%;
 }
