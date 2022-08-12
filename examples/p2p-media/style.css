@@ -1,5 +1,8 @@
 /* normalize */
-body { margin: 0; }
+body { 
+  margin: 0;
+  min-width: 10%;
+}
 
 /* global styles */
 video {
