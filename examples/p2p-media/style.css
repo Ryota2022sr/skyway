@@ -33,6 +33,7 @@ video {
 /* p2p-media styles */
 .p2p-media {
   display: flex;
+  position: relative;
   align-items: center;
   flex-direction: column;
 }
@@ -44,7 +45,7 @@ video {
 
 .p2p-media .local-stream {
   display: flex;
-  position: relative;
+  position: absolute;
   z-index: 2;
   right: 0;
   bottom: 0;
