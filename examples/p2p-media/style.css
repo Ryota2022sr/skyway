@@ -34,7 +34,7 @@ video {
 .p2p-media {
   position: relative;
   align-items: center;
-  width: 80%;
+  width: 100%;
 }
 
 .p2p-media .remote-stream {
