@@ -34,11 +34,11 @@ video {
 .p2p-media {
   position: relative;
   width: 80%;
-  align-items: center;
 }
 
 .p2p-media .remote-stream {
   height: auto;
+  align-items: center;
 }
 
 .p2p-media .local-stream {
