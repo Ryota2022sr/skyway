@@ -38,11 +38,15 @@ video {
 }
 
 .p2p-media .remote-stream {
+  position: fixed;
   height: auto;
   width: 80%;
 }
 
 .p2p-media .local-stream {
+  position: absolute;
+  z-index: -1;
+  justify-content: end;
   height: auto;
   width: 30%;
 }
