@@ -32,7 +32,7 @@ video {
 
 /* p2p-media styles */
 .p2p-media {
-  position: flex;
+  display: flex;
   align-items: center;
   flex-direction: column;
 }
