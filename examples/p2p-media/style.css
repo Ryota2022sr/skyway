@@ -38,7 +38,7 @@ video {
 }
 
 .p2p-media .remote-stream {
-  position: fixed;
+  /*position: fixed;*/
   height: auto;
   width: 80%;
 }
