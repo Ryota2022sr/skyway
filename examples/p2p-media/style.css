@@ -32,10 +32,8 @@ video {
 
 /* p2p-media styles */
 .p2p-media {
-  display: flex;
   position: relative;
   align-items: center;
-  flex-direction: column;
 }
 
 .p2p-media .remote-stream {
@@ -45,9 +43,8 @@ video {
 
 .p2p-media .local-stream {
   position: absolute;
-  align-items: flex-end;
   z-index: 2;
-  right: 2;
+  right: 0;
   bottom: 0;
   height: auto;
   width: 10%;
