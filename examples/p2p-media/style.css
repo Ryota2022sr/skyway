@@ -46,6 +46,7 @@ video {
 .p2p-media .local-stream {
   position: absolute;
   z-index: 2;
+  align-items: flex-end;
   height: auto;
   width: 20%;
 }
