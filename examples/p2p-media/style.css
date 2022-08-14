@@ -39,6 +39,7 @@ video {
 
 .p2p-media .remote-stream {
   height: auto;
+  width: auto;
 }
 
 .p2p-media .local-stream {
