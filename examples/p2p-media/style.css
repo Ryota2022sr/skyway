@@ -51,9 +51,7 @@ video {
   bottom: 0;
   height: auto;
   width: 20%;
-  border-style: ridge;
   border-color: #000;
-  border-width: 2px;
 }
 
 /* p2p-data styles */
