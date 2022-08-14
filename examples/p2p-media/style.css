@@ -43,7 +43,7 @@ video {
 
 .p2p-media .local-stream {
   position: absolute;
-  border: radius;
+  border-radius: 20px;
   z-index: 2;
   right: 0;
   bottom: 0;
