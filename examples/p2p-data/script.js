@@ -86,10 +86,11 @@ const Peer = window.Peer;
 
     function onClickSend() {
       const data = localText.value;
-      dataConnection.send(data);
-
-      messages.textContent += `You: ${data}\n`;
-      localText.value = '';
+      if(data<>''){
+        dataConnection.send(data);
+        messages.textContent += `You: ${data}\n`;
+        localText.value = '';
+      }
     }
   });
 
