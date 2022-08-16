@@ -48,13 +48,13 @@ video {
   display: grid;
   grid-template-columns: 30% 1fr;
   margin: 0 8px;
-  max-width: 100%;
 }
 
 .p2p-data .messages {
   background-color: #7494C0;
   color: #000;
   min-height: 300px;
+  max-width: 100%;
   padding: 8px;
   margin-top: 0;
   height: 50px;
