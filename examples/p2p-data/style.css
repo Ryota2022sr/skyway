@@ -55,7 +55,7 @@ video {
   color: #000;
   overflow-y:scroll;
   overflow-wrap: break-word;
-  min-height: 300px;
+  max-height: 300px;
   max-width: 600px;
   padding: 8px;
   margin-top: 0;
