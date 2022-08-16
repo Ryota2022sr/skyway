@@ -48,6 +48,9 @@ video {
   display: grid;
   grid-template-columns: 30% 1fr;
   margin: 0 8px;
+  max-width: 100%;
+  overflow-wrap: break-word;
+  overflow-y:scroll;
 }
 
 .p2p-data .messages {
@@ -57,9 +60,6 @@ video {
   padding: 8px;
   margin-top: 0;
   height: 50px;
-  max-width: 100%;
-  overflow-wrap: break-word;
-  overflow-y:scroll;
 }
 
 /* room */
