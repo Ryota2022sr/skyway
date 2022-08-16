@@ -58,6 +58,7 @@ video {
   padding: 8px;
   margin-top: 0;
   height: 50px;
+  table-layout: fixed;
   overflow-y:scroll;
   overflow-wrap: break-word;
 }
