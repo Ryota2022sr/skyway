@@ -53,14 +53,13 @@ video {
 .p2p-data .messages {
   background-color: #7494C0;
   color: #000;
+  overflow-y:scroll;
+  overflow-wrap: break-word;
   min-height: 300px;
   max-width: 600px;
   padding: 8px;
   margin-top: 0;
   height: 50px;
-  display:inline-block;
-  overflow-y:scroll;
-  overflow-wrap: break-word;
 }
 
 /* room */
